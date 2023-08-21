@@ -12,3 +12,21 @@ p {
     background-color: brown;
     color: aliceblue;
 }
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.navbar > li {
+    float: left;
+    font-size: 24px;
+}
+
+.botoMenu {
+    background-color: chocolate;
+    padding: 20px;
+}
