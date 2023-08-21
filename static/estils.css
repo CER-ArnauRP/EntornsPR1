@@ -8,7 +8,35 @@ h1 {
     margin: 0;
 }
 
-p {
-    background-color: brown;
-    color: aliceblue;
+h2 {
+    color: darkcyan;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.navbar > li {
+    float: left;
+    font-size: 24px;
+}
+
+.botoMenu {
+    background-color: chocolate;
+    padding: 20px;
+}
+
+.contingutPagina {
+
+    background-color: #ccc;
+    border: 2px dashed #aaa;
+    padding: 20px;
+    margin-inline: 20px;
+    margin-top: 20px;
 }
