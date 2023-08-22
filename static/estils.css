@@ -18,8 +18,8 @@ h2 {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    height: 30px;
-    margin-top: 20px;
+    background-color: #965;
+    overflow: hidden;
 }
 
 .navbar > li {
@@ -28,8 +28,19 @@ h2 {
 }
 
 .botoMenu {
-    background-color: chocolate;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
     padding: 20px;
+}
+
+.botoMenu:hover {
+    background-color: #643;
+}
+
+.botoMenuActiu {
+    background-color: #643;
 }
 
 .contingutPagina {
@@ -39,4 +50,24 @@ h2 {
     padding: 20px;
     margin-inline: 20px;
     margin-top: 20px;
+}
+
+.formulariContacte {
+    background-color: #ACF;
+    padding: 20px;
+    width: 400px;
+}
+
+.formulariContacte > input, textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.formulariContacte > textarea {
+    resize: vertical;
+}
+
+.botoFormulari {
+    background-color: #46B;
 }

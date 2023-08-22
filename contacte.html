@@ -13,13 +13,36 @@
         <h1>Contacte</h1>
 
         <ul class="navbar">
-            <li><a href="index.html">Index</a></li>
-            <li><a href="info.html">Informació</a></li>
-            <li><a href="productes.html">Productes</a></li>
-            <li><a href="contacte.html">Contacte</a></li>
+            <li><a class="botoMenu" href="index.html">Index</a></li>
+            <li><a class="botoMenu" href="info.html">Informació</a></li>
+            <li><a class="botoMenu" href="productes.html">Productes</a></li>
+            <li><a class="botoMenu botoMenuActiu" href="contacte.html">Contacte</a></li>
         </ul>
         
         <p>Pàgina Contacte</p>
+
+        <div class="contingutPagina">
+
+            <form class="formulariContacte" action="">
+
+                <label>Nom</label>
+                <input type="text" name="nomUsuari" placeholder="Nom">
+                <br/>
+            
+                <label>Email</label>
+                <input type="text" name="emailUsuari" placeholder="Email de contacte">
+                <br/>
+            
+                <label>Missatge</label>
+                <br/>
+                <textarea name="missatge" placeholder="Escriu el teu missatge"></textarea>
+                <br/>
+            
+                <input class="botoFormulari" type="submit" value="Envia">
+
+            </form>
+
+          </div>
 
     </body>
 
