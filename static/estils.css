@@ -40,3 +40,23 @@ h2 {
     margin-inline: 20px;
     margin-top: 20px;
 }
+
+.formulariContacte {
+    background-color: #ACF;
+    padding: 20px;
+    width: 400px;
+}
+
+.formulariContacte > input, textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.formulariContacte > textarea {
+    resize: vertical;
+}
+
+.botoFormulari {
+    background-color: #46B;
+}
